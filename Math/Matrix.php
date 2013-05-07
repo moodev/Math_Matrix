@@ -1218,7 +1218,7 @@ class Math_Matrix {
                     $data[] = explode(',',trim($line));
                 }
             }
-            $m =& new Math_Matrix();
+            $m = new Math_Matrix();
             $e = $m->setData($data);
 
             return $m;
